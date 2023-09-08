@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto & display=scambia');
+
+body{
+    display: flex;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.icon-left{
+    font-size: 2.5em;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-left p{
+    font-size: 16px;
+    margin: 2px;
+}
+
+#main-right{
+    width: 100%;
+}
+
+#top-bar{  
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-yt{
+    width: 140px;
+}
+
+.search-yt{
+    display: flex;
+    align-items: center;
+}
+
+.search-yt input{
+    padding: 6px 50px;
+    width: 100%;
+    margin-right: 0.3em;
+}
+
+.search-btn{
+    padding: 0.5 0.5em;
+    font-size: 1.6em;
+    display: flex;
+    align-items: center;
+    margin-right: 0.3em;
+}
+
+.mic-icon{
+    font-size: 3em;
+}
+
+.top-right{
+    display: flex;
+    margin-right: 1em;
+    font-size: 1.1em;
+}
+
+.icon-right{
+    padding: 0.5em;
+    font-size: 1.8em;
+}
+
+#main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:1em;
+}
+
+.logo-item{
+    display: flex;
+    margin-top: 0.5em;
+    align-items: center;
+}
+
+.img-item img{
+    width: 25em; 
+    margin-top: 1em;
+}
+
+.logo-item img{
+    width: 2.5em;
+}
+
+.logo-item h4, p{
+    margin: 0;
+    padding-left: 1em;
+}
